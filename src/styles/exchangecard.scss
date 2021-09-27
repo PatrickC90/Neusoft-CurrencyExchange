@@ -1,0 +1,57 @@
+
+
+.exchange-card {
+    width: 300px;
+    border: 1px solid rgb(17, 16, 16);
+    margin:1rem;
+    // display: flex;
+    // flex-direction: row;
+}
+
+.remove {
+    position:absolute;
+    width: 15px;
+    height: 15px;
+    float: right;
+    padding: 0.5rem;
+    margin: 0.5rem;
+    cursor: pointer;
+}
+
+.flag {
+  
+}
+
+.currency-tab {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    // flex-wrap: wrap;
+    padding: 1rem;
+    justify-content: space-between;
+
+    img{
+        width: 55px;
+        height: 55px;
+       margin-bottom: 0.5rem;
+    }
+
+    p {
+        margin-bottom: 0.5rem;
+    }
+
+    input {
+        margin-top: 0.5rem;
+        border: 1px solid #333;
+        border-radius: 0.5em;
+        padding: .25rem;
+    }
+}
+
+.second {
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: lightblue;
+}

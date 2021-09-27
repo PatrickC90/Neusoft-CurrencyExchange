@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.App {
+
+    // display: flex;
+    // flex-direction: row;
+    // min-height: 100vh;
+
+    // button {
+    //     position: absolute;
+    //     bottom: 0;
+    //     cursor: pointer;
+     
+    //    display: flex;
+    //    align-items: center;
+    //   justify-content: center;
+    // }
+}
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title {
+    margin: 5px;
+    font-size: 45px;
+}
+
+.card-holder {
+    display: flex;
+    margin: 20px;
+    
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    // justify-content: space-evenly;
+}
+.add-currency {
+    position: absolute;
+    
+    bottom: 0;
+    cursor: pointer;
+ 
+   display: flex;
+   align-content: center;
+}
